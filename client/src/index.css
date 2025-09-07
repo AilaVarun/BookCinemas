@@ -11,17 +11,27 @@
 
 
 *{
-    font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
     scrollbar-width: thin;
     scrollbar-color: #787777 #1e1e1e;
 }
 
 body{
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: #09090B;
 }
 
 
 .no-scrollbar{
     scrollbar-width: none;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
 }
